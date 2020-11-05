@@ -8,7 +8,7 @@ docker-compose build
 
 create-react-appとReactのインストール
 ```
-docker-compose run --rm node sh -c “npm install -g create-react-app && create-react-app react-sample"
+docker-compose run --rm node sh -c “npx create-react-app react-sample --templete typescript"
 ```
 
 実行
